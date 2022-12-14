@@ -172,20 +172,3 @@ hr{
 a{
 color: green;
 }
-.container{
-    margin-left: 0;
-}
-img{
-    height: 300px;
-    width: 300px;
-    margin: 30px;
-padding: 20px;
-}
-button{
-    border-radius: 40px;
-    background-color: green;
-    padding: 20px;
-}
-p{
-    font-size: 20px;
-}
