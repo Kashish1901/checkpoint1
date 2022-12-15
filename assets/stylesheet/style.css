@@ -100,37 +100,6 @@ h2{
 }
 .circle{
     display: inline-block;
-    background-color: #99D8CA;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    padding: 4px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-.circle1{
-    display: inline-block;
-    background-color: #0D1430;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    padding: 4px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-.circle2{
-    display: inline-block;
-    background-color: #90FFA9;
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    padding: 4px;
-    vertical-align: middle;
-    margin-right: 10px;
-}
-.circle3{
-    display: inline-block;
-    background-color: #5873E2;
     height: 10px;
     width: 10px;
     border-radius: 50%;
@@ -145,6 +114,18 @@ h2{
 .marker{
     margin: 0 16px;
     display: inline-block;
+}
+.content{
+    background-color: #99D8CA;
+}
+.padding{
+    background-color: #0D1430;
+}
+.border{
+    background-color: #90FFA9;
+}
+.margin{
+    background-color: #5873E2;
 }
 hr{
     width: 600px;
@@ -174,19 +155,6 @@ hr{
     margin: 10px;
     border: 2px solid black;
     box-sizing: border-box;
-
-}
-img{
-    height: 300px;
-    width: 400px;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    padding: 40px;
-}
-.float{
-    float: left;
-    margin-left: 50px;
 }
 p{
     font-size: 25px;
@@ -199,33 +167,26 @@ button{
     font-size: 20px;
     margin-top: 5px;
 }
-.float-left{
-    float: left;
-}
-.float-right{
-    float: right;
-}
-
 h3{
     font-size: 30px;
     color: blue;
     margin: 20px;
 }
-.parent-left{
-    width: 500px; 
-    margin-left: 50px;
-    box-sizing: border-box;
+.blog-container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.left{
+    width: 600px;
     display: inline-block;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    text-align: left;
+    vertical-align: top;
 }
-.parent-right{
-    width: 500px;
-    float: right;
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-right: 70px;
-    text-align: left;
+.right{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
 }
+img{
+    width: 100%;
+}
+
